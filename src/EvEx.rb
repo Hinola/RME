@@ -371,7 +371,7 @@ class Game_Battler < Game_BattlerBase
   # * Memorize item ID
   #--------------------------------------------------------------------------
   def use_item(item)
-    $game_temp.last_used_item = item.id
+    Game_Temp::last_used_item = item.id
     old_use_item(item)
   end
 end
