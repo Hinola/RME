@@ -1220,7 +1220,7 @@ module RMECommands
     #   end
     # end
     
-    def last_used_item(); $game_temp.last_used_item; end
+    def last_used_item(); Game_Temp::last_used_item; end
 
     append_commands
   end
